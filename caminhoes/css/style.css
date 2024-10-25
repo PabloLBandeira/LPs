@@ -1,0 +1,102 @@
+:root {
+    --background-color: #193062;
+    --link-color: #349cd7;
+    --card-color: #e6e7e8;
+    --border-radius: 5px;
+    --transition: 0.3s;
+  }
+  
+  body{
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+  }
+  
+  header {
+   height: 400px;
+   overflow: hidden;
+  }
+  
+  header img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .call-to-action{
+    background-color: var(--background-color);
+    padding: 20px;
+    text-align: center;
+    border-radius: 0.75rem;
+  }
+  
+  .font-large{
+    font-size: 22px;
+  }
+  
+  .btn-primary-custom{
+    background-color: var(--link-color);
+  }
+  
+  .btn-primary-custom a{
+    text-decoration: none;
+    color: var(--light-color);
+  }
+  
+  .btn-primary-custom:hover{
+    transform: translate(-5px, -5px);
+    background-color: #1770a3;
+  }
+  
+  .text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  .produtos figure img {
+    width: 13rem;
+  }
+  
+  .arrow:hover{
+    cursor: pointer;
+  }
+  
+  .box-bottom {
+    flex: 1;
+    background-color: var(--card-color);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 25px;
+  }
+  
+  .section-form{
+    background-color: var(--card-color);
+    align-content: center;
+  }
+  
+  .form{
+    max-width: 70%;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .people-card{
+    border: 1px solid #8b8b8b;
+  }
+  
+  .text-card{
+    font-style: italic;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .people-card figure img {
+    width: 16rem;
+    border-radius: var(--border-radius);
+  }
+
+  .mb-3 {
+    font-size: 1.1rem; /* Altere o valor conforme necessário */
+}
